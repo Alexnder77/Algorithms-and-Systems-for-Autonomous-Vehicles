@@ -29,7 +29,7 @@ To maintain control, the timestep size (dt) was adjusted by increasing the sampl
 The PID controller was tuned with twiddle() for this higher speed, and different timestep sizes were tried to achieve a low tracking error. 
 Reducing dt to 1/10 led to a better error result, but a good error was already achieved with dt = 1. The PID gains for dt = 1/10 were obtained, and the diagram of the last N steps was presented.
 
-## Lab 3. PID Control
+## Lab 3. Simulating highway driving
 In Lab 3, the goal is to modify the highway-env repository, specifically the highway_env.py file, to introduce a penalty for changing lanes during highway driving. This is done to encourage the agent to maintain its current lane when possible. The lab involves the following steps:
 
 1. Fork the highway-env repository and modify the highway_env.py file to include a penalty term for lane changes.
